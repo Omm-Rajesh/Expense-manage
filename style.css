@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+.details
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 8% auto 0;
+    padding: 40px;
+    background: #fff;
+}
+.details h3{
+    color: #00f;
+    margin-bottom: 30px;
+}
+.details input{
+    border-radius: 20px;
+    margin: 10px;
+    border-style: groove;
+    border-width: 20%;
+    padding: 5px;
+}
+.details button{
+    color:#000000;
+    background-color: #1c8adb;
+    border-radius: 20px;
+    width:50% ;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border-style: outset;
+    cursor: pointer;
+}
+#Months
+{
+    border-radius: 5px;
+    width: 170px;
+}
