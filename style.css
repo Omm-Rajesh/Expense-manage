@@ -2,45 +2,62 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman';
+   
 }
-.details
-{
+.main{
+    
+    background-image: url(https://img.freepik.com/free-vector/stock-market-economic-graph-with-diagrams-business-financial-concepts-reports-abstract-technology-communication-concept-background_29865-1321.jpg?w=1380);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: rgb(154, 239, 195);
+    text-align: center;
+    
+}
+#form{
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 300px;
-    height: 300px;
+    height: 400px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    text-align: center;
     margin: 8% auto 0;
-    padding: 40px;
+    padding: 30px;
     background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
-.details h3{
-    color: #00f;
+
+#form h3{
+    text-align: left;
+    color: rgb(30, 30, 54);
     margin-bottom: 30px;
 }
-.details input{
-    border-radius: 20px;
-    margin: 10px;
+#form input{
+   
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 0px;
     border-style: groove;
     border-width: 20%;
     padding: 5px;
 }
-.details button{
-    color:#000000;
-    background-color: #1c8adb;
-    border-radius: 20px;
-    width:50% ;
-    margin: 10px;
-    padding: 5px;
-    font-size: 15px;
-    border-style: outset;
+#button input[type="submit"]{
+    border-radius: 5px;
+    width: 30%;
+    background-color: rgb(145, 145, 236);
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 4px;
+    /* margin-top: 50px; */
     cursor: pointer;
 }
 #Months
 {
+    
     border-radius: 5px;
-    width: 170px;
+    margin-top: px;
+    width: 215px;
+    height: 30px;
+    font-size: medium;
 }
